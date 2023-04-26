@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import logo from '../assets/img/logo.png'
 
