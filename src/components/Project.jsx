@@ -62,7 +62,10 @@ const Project = ({ data }) => {
                 {
                     projects.map((project) => {
                         return (
-                            <a href={project.github} rel="noreferrer" target="_blank" className="project__img" key={project.id}>
+                            <a href={project.github} rel="noreferrer" target="_blank" className="project__img" key={project.id}
+                                data-aos="zoom-in"
+                                data-aos-offset="200"
+                                data-aos-duration="1000">
                                 <img src={project.image} alt="" />
                             </a>
                         )

@@ -1,13 +1,25 @@
-import React from 'react'
+import { React, useState } from 'react'
 import { Link } from "react-scroll";
 import logo from '../assets/img/logo.png'
 
 const Header = () => {
+
+    const [shake, setShake] = useState(false);
+
+    const animate = () => {
+        // Button begins to shake
+        setShake(true);
+        // Buttons stops to shake after 2 seconds
+        setTimeout(() => setShake(false), 2000);
+    }
+    
     return (
         <header className="l-header">
             <nav className="nav bd-grid">
                 <div>
-                    <a href="/" className="nav__logo"><img src={logo} style={{ width: "10rem" }} alt="" /></a>
+                    <a href="/" className='nav__logo'>
+                        <img src={logo} style={{ width: "10rem" }} onClick={animate} className={shake ? `shake ` : null} alt="" />
+                    </a>
                 </div>
 
                 <div className="nav__menu" id="nav-menu">

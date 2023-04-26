@@ -6,9 +6,9 @@ const home = {
 
 const Home = ({ data }) => {
     return (
-        <section className="home bd-grid" id="home">
+        <section className="home bd-grid" id="home" >
 
-            <div className="home__data">
+            <div className="home__data" data-aos="zoom-in-right" data-aos-duration="1000">
                 <h1 className="home__title">Hi,<br />I'm <span className="home__title-color">{data.first_name}</span><br /> {home.job_title}
                 </h1>
 
@@ -16,7 +16,7 @@ const Home = ({ data }) => {
 
             </div>
 
-            <div className="home__social">
+            <div className="home__social" data-aos="zoom-in-left" data-aos-duration="1000">
                 <a href={data.linkedin} className="home__social-icon" target="_blank" rel="noreferrer">
                     <i className='bx bxl-linkedin'></i></a>
                 <a href={data.github} className="home__social-icon" target="_blank" rel="noreferrer">
@@ -26,11 +26,11 @@ const Home = ({ data }) => {
                     <i className='bx bx-code-alt'></i>
                 </a>
                 <a href={data.hackerrank} className="home__social-icon" target="_blank" rel="noreferrer">
-                <i className='bx bx-code-curly' ></i>
+                    <i className='bx bx-code-curly' ></i>
                 </a>
             </div>
 
-            <div className="home__img">
+            <div className="home__img" data-aos="zoom-in-left" data-aos-duration="1000">
                 <svg className="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink">
                     <mask id="mask0" mask-type="alpha">

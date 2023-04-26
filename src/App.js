@@ -7,6 +7,9 @@ import Main from "./components/Main";
 import resume from './assets/Abhijeet_Resume.pdf'
 import about_profile from './assets/img/about_profile.jpg'
 import title_profile from './assets/img/title_profile.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 function App() {

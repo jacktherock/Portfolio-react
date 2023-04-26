@@ -78,7 +78,10 @@ const Skills = () => {
                                     {/* <h2 className="skills__subtitle"></h2> */}
                                     {/* <p className="skills__text"></p> */}
 
-                                    <div className="skills__data" key={sl.id}>
+                                    <div className="skills__data" key={sl.id}
+                                        data-aos="zoom-in-left"
+                                        data-aos-offset="100"
+                                        data-aos-duration="1000">
                                         <div className="skills__names">
                                             <i className={`bx ${sl.icon_name} skills__icon`}></i>
                                             <span className="skills__name">{sl.skill_name}</span>
@@ -98,7 +101,10 @@ const Skills = () => {
                                     {/* <h2 className="skills__subtitle"></h2> */}
                                     {/* <p className="skills__text"></p> */}
 
-                                    <div className="skills__data" >
+                                    <div className="skills__data"
+                                        data-aos="zoom-in-right"
+                                        data-aos-offset="100"
+                                        data-aos-duration="1000" >
                                         <div className="skills__names">
                                             <i className={`bx ${sr.icon_name} skills__icon`}></i>
                                             <span className="skills__name">{sr.skill_name}</span>

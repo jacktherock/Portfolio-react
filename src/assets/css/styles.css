@@ -142,6 +142,10 @@ img {
   margin-bottom: var(--mb-4);
 }
 
+.nav__item:hover {
+  cursor: pointer;
+}
+
 .nav__link {
   position: relative;
   color: #fff;

@@ -14,11 +14,11 @@ const About = ({ data }) => {
             <h2 className="section-title">About</h2>
 
             <div className="about__container bd-grid">
-                <div className="about__img">
+                <div className="about__img" data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                     <img src={data.about_image} alt="" />
                 </div>
 
-                <div>
+                <div data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                     <h2 className="about__subtitle">
                         <span style={{ fontSize: "medium", fontWeight: "normal" }}>I am </span>{data.first_name} {data.last_name}
                     </h2>

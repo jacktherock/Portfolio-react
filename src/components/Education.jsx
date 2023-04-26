@@ -40,7 +40,10 @@ const Education = () => {
                     education.map((edu) => {
                         return (
 
-                            <div className="education__data" key={edu.id}>
+                            <div className="education__data" key={edu.id}
+                                data-aos="zoom-in"
+                                data-aos-offset="200"
+                                data-aos-duration="1000">
                                 <h2 className="education__title">{edu.name}</h2>
                                 <div className="education__sub">
                                     <p className="education__text">{edu.location}</p>
@@ -50,7 +53,7 @@ const Education = () => {
                                     <p className="education__text">{edu.field}</p>
                                     <p className="education__text">{edu.subject}</p>
                                 </div>
-                            </div>  
+                            </div>
 
                         )
                     })
