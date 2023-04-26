@@ -5,7 +5,7 @@ const Contact = ({ data }) => {
         <section className="contact section" id="contact">
             <h2 className="section-title">Contact</h2>
 
-            <div className="contact__social bd__grid" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000">
+            <div className="contact__social bd__grid" data-aos="zoom-in-up" data-aos-duration="1000">
                 <a href={data.linkedin} className="contact__icon home__social-icon" rel="noreferrer" target="_blank">
                     <i className='bx bxl-linkedin'></i>
                 </a>
