@@ -12,7 +12,7 @@ const Header = () => {
         // Buttons stops to shake after 2 seconds
         setTimeout(() => setShake(false), 2000);
     }
-    
+
     return (
         <header className="l-header">
             <nav className="nav bd-grid">
