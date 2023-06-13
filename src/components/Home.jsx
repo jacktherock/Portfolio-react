@@ -22,12 +22,12 @@ const Home = ({ data }) => {
                 <a href={data.github} className="home__social-icon" target="_blank" rel="noreferrer">
                     <i className='bx bxl-github'></i>
                 </a>
-                <a href={data.leetcode} className="home__social-icon" target="_blank" rel="noreferrer">
+                {/* <a href={data.leetcode} className="home__social-icon" target="_blank" rel="noreferrer">
                     <i className='bx bx-code-alt'></i>
                 </a>
                 <a href={data.hackerrank} className="home__social-icon" target="_blank" rel="noreferrer">
                     <i className='bx bx-code-curly' ></i>
-                </a>
+                </a> */}
             </div>
 
             <div className="home__img" data-aos="zoom-in-left" data-aos-duration="1000">
