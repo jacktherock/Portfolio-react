@@ -3,7 +3,7 @@ import React from 'react'
 
 const about =
 {
-    intro: "Pursuing Bachlor's of Engineering Degree in Computer Science from Savitribai Phule Pune University.",
+    intro: "I have completed Bachlor's of Engineering Degree in Computer Science from Savitribai Phule Pune University, Pune.",
     desc: "I believe I am an enthusiastic person who genuinely wants to develop the necessary skills and qualities to have a successful career and future. I am genuinely a positive person, I keep myself active, and I want to learn from more experienced people than myself, so I can build the necessary project qualities and traits.",
 }
 

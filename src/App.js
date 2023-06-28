@@ -4,7 +4,7 @@ import './assets/css/styles.css'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
-import resume from './assets/Abhijeet_Resume.pdf'
+import resume from './assets/Resume_AbhijeetSonawane.pdf'
 import about_profile from './assets/img/about_profile.jpg'
 import title_profile from './assets/img/title_profile.png'
 import AOS from 'aos';

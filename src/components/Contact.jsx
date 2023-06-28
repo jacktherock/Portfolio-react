@@ -19,9 +19,9 @@ const Contact = ({ data }) => {
                     className="contact__icon home__social-icon" rel="noreferrer" target="_blank">
                     <i className='bx bxs-map'></i>
                 </a>
-                <a href={data.siteLink} className="contact__icon home__social-icon">
+                {/* <a href={data.siteLink} className="contact__icon home__social-icon">
                     <i className='bx bx-world'></i>
-                </a>
+                </a> */}
             </div>
         </section>
     )
