@@ -109,10 +109,6 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-
-                <div className="nav__toggle" id="nav-toggle">
-                    <i className='bx bx-menu'></i>
-                </div>
             </nav>
         </header>
     )
